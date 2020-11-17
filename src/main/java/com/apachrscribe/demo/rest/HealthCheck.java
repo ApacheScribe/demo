@@ -10,7 +10,7 @@ public class HealthCheck {
 
     @GetMapping("/health")
     public ResponseEntity<String> online() {
-        return (new ResponseEntity<String>("Hello World", HttpStatus.OK));
+        return (new ResponseEntity<String>("Hello World!", HttpStatus.OK));
     }
 
 }
